@@ -18,6 +18,7 @@ import FinancePer from "@/Component/FinancePer";
 import CorporateAccounting from "@/Component/CorporateAccounting";
 import Corporate from "@/Component/Corporate";
 import Tool from "@/Component/Tool";
+import Marketing from "@/Component/Marketing";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
         <Dreams />
         <Target />
         <ProgramPartner />
+        <Marketing />
         <Corporate />
         <Programs />
         <Jobboard />
