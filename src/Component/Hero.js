@@ -12,21 +12,21 @@ function Hero() {
         <div className="hero-cards df fww pt32 aie">
           <div className="hero-left-card flx50">
             <div className="hero-left-sec-content mlr32 mb32">
-              <div className="hero-timing bg6 df fww br8 p8 mb24">
+              <div className="hero-timing bg6 df fww br8 p16 mb32">
                 <div className="hero-duration flx50">
-                  <h3 className="hero-duration-heading fw6 mb12 fs18">
+                  <h3 className="hero-duration-heading fw6 mb12 fs20">
                     Duration
                   </h3>
                   <p className="hero-duration-subheading fs14"> 9 Months</p>
                 </div>
                 <div className="hero-duration flx50">
-                  <h3 className="hero-duration-heading fw6 mb12 fs18">
+                  <h3 className="hero-duration-heading fw6 mb12 fs20">
                     Starts
                   </h3>
                   <p className="hero-duration-subheading fs14">in 15 days</p>
                 </div>
               </div>
-              <div className="hero-buttons df  fww">
+              <div className="hero-buttons df fww">
                 <Link
                   href="#"
                   className="hero-download-btn  bg1 h48 plr24 ttu br8 df aic fc2 mr16"
