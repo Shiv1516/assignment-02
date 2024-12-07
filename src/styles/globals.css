@@ -496,7 +496,6 @@ table {
 .navbar li {
   position: relative;
 }
-
 .pa,
 .aft:after,
 .bef:before {
@@ -511,11 +510,9 @@ table {
 .l0 {
   left: 0;
 }
-
 .r5 {
   right: -5px;
 }
-
 .t0 {
   top: 0;
 }
@@ -1144,10 +1141,18 @@ table {
 }
 /* target css */
 
-/* marketing section css */
-/* .marketing-img-01 {
+/* career section css */
+.career-design {
+  width: 18vw;
+  height: 9vw;
+}
+.career-design {
+  border: 20px solid #21355c;
+  border-radius: 50%;
+  color: #21355c;
+}
 
-/* marketing section css */
+/* career section css */
 
 @media only screen and (max-width: 720px) {
   .menu-btn {
@@ -1221,4 +1226,63 @@ table {
   .header-sign-btn {
     margin-bottom: 16px;
   }
+}
+
+.gauge {
+  position: relative;
+  width: 100px;
+  height: 50px;
+}
+
+.gauge svg {
+  width: 100px;
+  height: 50px;
+}
+
+.gauge path {
+  fill: none;
+  stroke-width: 10;
+}
+
+.gauge .background {
+  stroke: #e5e5e5;
+}
+
+.gauge .progress {
+  stroke: #00bcd4;
+  stroke-dasharray: 126;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.value-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+}
+.stoke25 {
+  stroke-dashoffset: 25;
+}
+.stoke75 {
+  stroke-dashoffset: 75;
+}
+.stoke100 {
+  stroke-dashoffset: 100;
+}
+.stoke63 {
+  stroke-dashoffset: 63;
+}
+.stoke38 {
+  stroke-dashoffset: 38;
 }
