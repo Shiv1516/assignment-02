@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Jacquard+24&family=Kaushan+Script&display=swap");
 
-/* @import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css"; */
 html,
 body,
 main,
@@ -337,6 +335,9 @@ table {
 }
 .bg6 {
   background-color: #ffffff;
+}
+.bg7 {
+  background-color: #aabde140;
 }
 
 .fc1,
@@ -1154,6 +1155,65 @@ table {
 
 /* career section css */
 
+.gauge {
+  position: relative;
+  width: 100px;
+  height: 50px;
+}
+
+.gauge svg {
+  width: 100px;
+  height: 50px;
+}
+
+.gauge path {
+  fill: none;
+  stroke-width: 10;
+}
+
+.gauge .background {
+  stroke: #e5e5e5;
+}
+
+.gauge .progress {
+  stroke: #00bcd4;
+  stroke-dasharray: 126;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.value-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+}
+.stoke25 {
+  stroke-dashoffset: 25;
+}
+.stoke75 {
+  stroke-dashoffset: 75;
+}
+.stoke100 {
+  stroke-dashoffset: 100;
+}
+.stoke63 {
+  stroke-dashoffset: 63;
+}
+.stoke38 {
+  stroke-dashoffset: 38;
+}
+
 @media only screen and (max-width: 720px) {
   .menu-btn {
     display: flex;
@@ -1226,63 +1286,77 @@ table {
   .header-sign-btn {
     margin-bottom: 16px;
   }
+  .flx50,
+  .flx60 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  .flx25,
+  .flx20 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 24px;
+  }
+  .target-card {
+    margin-bottom: 76px;
+  }
+  .flx16 {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
 }
-
-.gauge {
-  position: relative;
-  width: 100px;
-  height: 50px;
-}
-
-.gauge svg {
-  width: 100px;
-  height: 50px;
-}
-
-.gauge path {
-  fill: none;
-  stroke-width: 10;
-}
-
-.gauge .background {
-  stroke: #e5e5e5;
-}
-
-.gauge .progress {
-  stroke: #00bcd4;
-  stroke-dasharray: 126;
-  stroke-linecap: round;
-  transition: stroke-dashoffset 0.5s ease;
-}
-
-.value-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
-}
-
-.label {
-  margin-top: 10px;
-  font-size: 14px;
-  text-align: center;
-  color: #555;
-}
-.stoke25 {
-  stroke-dashoffset: 25;
-}
-.stoke75 {
-  stroke-dashoffset: 75;
-}
-.stoke100 {
-  stroke-dashoffset: 100;
-}
-.stoke63 {
-  stroke-dashoffset: 63;
-}
-.stoke38 {
-  stroke-dashoffset: 38;
+@media only screen and (max-width: 541px) {
+  .fs18,
+  .fs20 {
+    font-size: 16px;
+  }
+  .flx25,
+  .flx20 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  .section-heading,
+  .certificate-heading,
+  .counseling-heading,
+  .enroll-heading {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .hero-download-btn,
+  .hero-apply-btn,
+  .counseling-btn {
+    padding: 0 12px 0 12px;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .target-card {
+    margin-bottom: 100px;
+  }
+  .flx16 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .certificate-img {
+    width: 320px;
+    height: 280px;
+  }
+  .flx33 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  .hero-buttons,
+  .counseling-btn-box {
+    display: flex;
+    justify-content: center;
+  }
+  .wwr-images {
+    width: 250px;
+    height: 250px;
+  }
+  .jobboard-item {
+    line-height: 20px;
+  }
 }

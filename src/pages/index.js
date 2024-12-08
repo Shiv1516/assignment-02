@@ -19,6 +19,8 @@ import CorporateAccounting from "@/Component/CorporateAccounting";
 import Corporate from "@/Component/Corporate";
 import Tool from "@/Component/Tool";
 import Marketing from "@/Component/Marketing";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Home() {
   return (

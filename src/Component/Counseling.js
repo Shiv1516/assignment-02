@@ -8,7 +8,7 @@ function Counseling() {
           <h2 className="counseling-heading fs36 lh34 fc2 fw6 plr24 mb40">
             Want to take a customised counselling before enrolling?
           </h2>
-          <div className="counseling-btn-box df pl32 pt32">
+          <div className="counseling-btn-box df fww pl32 pt32">
             <Link
               href="#"
               className="counseling-btn mr24 h48 bg6 plr24 br8 ttu fw5 df aic"

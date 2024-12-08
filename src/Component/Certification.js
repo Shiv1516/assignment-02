@@ -8,15 +8,14 @@ function Certification() {
           Get Industry Recognised Certification
         </h2>
       </div>
-      <div className="certificate-img flx1">
+      <div className="certificate-img flx1 df ">
         <img
           src="images/certificate-01.png"
           alt="certificate-img"
           className="certificate-img"
-          width={600}
-          height={400}
+          width={500}
+          height={300}
         />
-        {/* <img src="images/certificate-01.png" alt="" className="w100" /> */}
       </div>
     </div>
   );
