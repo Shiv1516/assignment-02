@@ -16,7 +16,7 @@ const Header = () => {
   };
   return (
     <>
-      <header className="header bs1">
+      <header className="header bs1 zi9999">
         <div className="wrapper v-center jcsb ptb12">
           <Link href="/" className="logo box-center">
             <Image

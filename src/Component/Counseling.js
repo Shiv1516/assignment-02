@@ -2,7 +2,12 @@ import React from "react";
 import Link from "next/link";
 function Counseling() {
   return (
-    <div className="bg1 ptb40">
+    <div className="pr bg1 ptb40 t0 l0">
+      <img
+        src="/images/section-bg-img.png"
+        alt=""
+        className="section-img-01 pa df"
+      />
       <div className="counseling-section wrapper df fww ptb48 aic">
         <div className="counseling-section-heading flx50">
           <h2 className="counseling-heading fs36 lh34 fc2 fw6 plr24 mb40">

@@ -545,6 +545,9 @@ table {
 .zi999 {
   z-index: 999;
 }
+.zi9999 {
+  z-index: 9999;
+}
 
 .cp {
   cursor: pointer;
@@ -1214,6 +1217,17 @@ table {
   stroke-dashoffset: 38;
 }
 
+.section-img-01 {
+  width: 40%;
+  left: -20%;
+  top: 26%;
+}
+.section-img-02 {
+  width: 45%;
+  right: -20%;
+  top: -46%;
+}
+
 @media only screen and (max-width: 720px) {
   .menu-btn {
     display: flex;
@@ -1309,6 +1323,9 @@ table {
     flex: 0 0 25%;
     max-width: 25%;
     margin-bottom: 24px;
+  }
+  .section-img-01 {
+    display: none;
   }
 }
 @media only screen and (max-width: 541px) {
