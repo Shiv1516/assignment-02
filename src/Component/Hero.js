@@ -49,7 +49,10 @@ function Hero() {
             <h3 className="hero-scholarship fw6 fs18 mb24 fc2">
               Get Scholarship Up To 50%
             </h3>
-            <Link href="#" className="h48 jcc df aic plr24 fw6 bg4 mb40">
+            <Link
+              href="#"
+              className="hero-download wsnw h48 jcc df aic plr24 fw6 bg4 mb40"
+            >
               <MdOutlineDownloadForOffline className="mr12 fs32 fw4" />
               DOWNLOAD PROSPECTUS
             </Link>

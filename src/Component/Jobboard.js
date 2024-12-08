@@ -19,11 +19,11 @@ function Jobboard() {
               className="jobboard-img"
             />
             <ul className="jobboard-list">
-              <li className="jobboard-item df mb16">
+              <li className="jobboard-item df mb16 tal">
                 <LuDot className="mr8" /> Personalized guidance to help you
                 secure your ideal job.
               </li>
-              <li className="jobboard-item df">
+              <li className="jobboard-item df tal">
                 <LuDot className="mr8" /> Personalized guidance to help you
                 secure your ideal job.
               </li>
@@ -43,11 +43,11 @@ function Jobboard() {
               className="jobboard-img"
             />
             <ul className="jobboard-list">
-              <li className="jobboard-item df mb16">
+              <li className="jobboard-item df mb16 tal">
                 <LuDot className="mr8" /> Personalized guidance to help you
                 secure your ideal job.
               </li>
-              <li className="jobboard-item df">
+              <li className="jobboard-item df tal">
                 <LuDot className="mr8" /> Personalized guidance to help you
                 secure your ideal job.
               </li>
