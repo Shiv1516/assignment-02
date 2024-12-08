@@ -5,7 +5,7 @@ function Counseling() {
     <div className="pr bg1 ptb40 t0 l0">
       <img
         src="/images/section-bg-img.png"
-        alt=""
+        alt="bg-img"
         className="section-img-01 pa df"
       />
       <div className="counseling-section wrapper df fww ptb48 aic">

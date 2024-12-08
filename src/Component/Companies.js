@@ -2,7 +2,12 @@ import React from "react";
 
 function Companies() {
   return (
-    <div className="companies-section ptb48 wrapper">
+    <div className="companies-section ptb48 wrapper pr">
+      <img
+        src="images/section-img-02.png"
+        alt="bg-img"
+        className="section-img-02 pa df"
+      />
       <h2 className="section-heading fs36 lh34 fw6 tac fc1 ptb32">
         Trusted by 200+ Companies Worldwide
       </h2>

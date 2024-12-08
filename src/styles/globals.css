@@ -1224,8 +1224,9 @@ table {
 }
 .section-img-02 {
   width: 45%;
-  right: -20%;
-  top: -46%;
+  right: -32%;
+  top: -62%;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 720px) {
@@ -1324,7 +1325,8 @@ table {
     max-width: 25%;
     margin-bottom: 24px;
   }
-  .section-img-01 {
+  .section-img-01,
+  .section-img-02 {
     display: none;
   }
 }
