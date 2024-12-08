@@ -1305,6 +1305,11 @@ table {
     flex: 0 0 33%;
     max-width: 33%;
   }
+  .gauge-container {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-bottom: 24px;
+  }
 }
 @media only screen and (max-width: 541px) {
   .fs18,
@@ -1321,8 +1326,8 @@ table {
   .certificate-heading,
   .counseling-heading,
   .enroll-heading {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 25px;
+    line-height: 35px;
   }
   .hero-download-btn,
   .hero-apply-btn,
@@ -1358,5 +1363,27 @@ table {
   }
   .jobboard-item {
     line-height: 20px;
+  }
+  .finance-subtext {
+    padding: 0px;
+  }
+  .hero-right-card {
+    margin: 0px;
+  }
+  .gauge-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  .hero-section,
+  .counseling-section,
+  .container,
+  .testimonials-section,
+  .companies-section,
+  .targets-section,
+  .tool-section,
+  .hrprograms-section,
+  .enroll-section {
+    padding: 16px 0 16px 0;
   }
 }
